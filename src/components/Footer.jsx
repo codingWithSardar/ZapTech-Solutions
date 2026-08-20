@@ -33,19 +33,19 @@ const Footer = () => {
   const socials = [
     {
       icon: FaLinkedinIn,
-      href: "#",
+      href: "https://www.linkedin.com/in/sardar-abdullah-00a381388?utm_source=share_via&utm_content=profile&utm_medium=member_android",
     },
     {
       icon: FaGithub,
-      href: "#",
+      href: "https://github.com/Shahzaib-Malik77",
     },
     {
       icon: FaInstagram,
-      href: "#",
+      href: "https://www.instagram.com/m.shahzaib2005?igsh=bnV1NHV5eWtjeTNx&igsi=bnV1NHV5eWtjeTNx",
     },
     {
       icon: FaTwitter,
-      href: "#",
+      href: "https://x.com/abid_sarda57174",
     },
   ];
 
@@ -102,7 +102,7 @@ const Footer = () => {
                 className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-slate-300 transition-colors hover:text-cyan-300"
               >
                 <FiMail size={16} />
-                hello@zaptechsolutions.com
+               zaphtech.solutions@gmail.com
               </a>
 
               <div className="mt-7 flex items-center gap-2">

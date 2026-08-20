@@ -188,7 +188,7 @@ const Contact = () => {
             </p>
 
             <p className="mt-2 text-sm font-medium text-slate-300 transition-colors group-hover:text-cyan-300">
-              hello@zaptechsolutions.com
+             zaphtech.solutions@gmail.com
             </p>
 
             <div className="mt-5 flex items-center gap-1 text-xs text-slate-600 group-hover:text-slate-400">
@@ -218,7 +218,8 @@ const Contact = () => {
             </p>
 
             <p className="mt-2 text-sm font-medium text-slate-300 transition-colors group-hover:text-blue-300">
-              +92 300 1234567
+              +92 3485006522 <br />
+              +92 3235304217
             </p>
 
             <div className="mt-5 flex items-center gap-1 text-xs text-slate-600 group-hover:text-slate-400">
@@ -255,7 +256,7 @@ const Contact = () => {
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-cyan-400 opacity-50" />
                 <span className="relative h-2 w-2 rounded-full bg-cyan-400" />
               </span>
-              Available worldwide
+              Available
             </div>
           </motion.div>
         </div>
