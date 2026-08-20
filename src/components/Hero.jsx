@@ -1,10 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import {
-  ArrowRight,
-  ArrowUpRight,
-  Sparkles,
-} from "lucide-react";
+import { ArrowRight, ArrowUpRight, Sparkles } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -20,8 +17,7 @@ const Hero = () => {
           backgroundImage:
             "linear-gradient(rgba(255,255,255,0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.08) 1px, transparent 1px)",
           backgroundSize: "70px 70px",
-          maskImage:
-            "linear-gradient(to bottom, black 0%, transparent 85%)",
+          maskImage: "linear-gradient(to bottom, black 0%, transparent 85%)",
           WebkitMaskImage:
             "linear-gradient(to bottom, black 0%, transparent 85%)",
         }}
@@ -106,10 +102,9 @@ const Hero = () => {
             }}
             className="mt-6 max-w-2xl text-sm leading-6 text-slate-400 sm:mt-7 sm:text-lg sm:leading-7"
           >
-            Zaphtech  Solutions transforms ambitious ideas into
-            powerful digital products through modern web
-            development, AI, scalable technology and exceptional
-            design.
+            Zaphtech Solutions transforms ambitious ideas into powerful digital
+            products through modern web development, AI, scalable technology and
+            exceptional design.
           </motion.p>
 
           <motion.div
@@ -121,26 +116,26 @@ const Hero = () => {
             }}
             className="mt-8 flex flex-col gap-3 sm:mt-9 sm:flex-row"
           >
-            <motion.a
-              href="/contact"
-              whileHover={{
-                scale: 1.04,
-                boxShadow:
-                  "0 0 45px rgba(34,211,238,0.25)",
-              }}
-              whileTap={{ scale: 0.97 }}
-              className="group flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-cyan-400 via-blue-400 to-violet-400 px-6 py-3.5 text-sm font-bold text-[#04101c]"
-            >
-              Start a Project
+            <Link to={"/contact"}>
+              <motion.a
+                whileHover={{
+                  scale: 1.04,
+                  boxShadow: "0 0 45px rgba(34,211,238,0.25)",
+                }}
+                whileTap={{ scale: 0.97 }}
+                className="group flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-cyan-400 via-blue-400 to-violet-400 px-6 py-3.5 text-sm font-bold text-[#04101c]"
+              >
+                Start a Project
+                <ArrowUpRight
+                  size={17}
+                  className="transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+                />
+              </motion.a>
+            </Link>
 
-              <ArrowUpRight
-                size={17}
-                className="transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
-              />
-            </motion.a>
-
-            <motion.a
-              href="/projects"
+           
+              <Link to={"/projects"}>
+               <motion.a
               whileHover={{
                 scale: 1.03,
                 backgroundColor: "rgba(255,255,255,0.07)",
@@ -148,13 +143,16 @@ const Hero = () => {
               whileTap={{ scale: 0.97 }}
               className="group flex items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/[0.03] px-6 py-3.5 text-sm font-semibold text-white backdrop-blur-xl transition-colors"
             >
+              
               Explore Our Work
-
-              <ArrowRight
+               <ArrowRight
                 size={17}
                 className="transition-transform duration-300 group-hover:translate-x-1"
               />
             </motion.a>
+              </Link>
+
+             
           </motion.div>
 
           <motion.div
@@ -167,34 +165,22 @@ const Hero = () => {
             className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-4 sm:mt-12 sm:gap-x-8"
           >
             <div>
-              <p className="text-2xl font-bold text-white">
-                30+
-              </p>
-              <p className="mt-1 text-xs text-slate-500">
-                Projects Delivered
-              </p>
+              <p className="text-2xl font-bold text-white">30+</p>
+              <p className="mt-1 text-xs text-slate-500">Projects Delivered</p>
             </div>
 
             <div className="h-10 w-px bg-white/10" />
 
             <div>
-              <p className="text-2xl font-bold text-white">
-                20+
-              </p>
-              <p className="mt-1 text-xs text-slate-500">
-                Happy Clients
-              </p>
+              <p className="text-2xl font-bold text-white">20+</p>
+              <p className="mt-1 text-xs text-slate-500">Happy Clients</p>
             </div>
 
             <div className="h-10 w-px bg-white/10" />
 
             <div>
-              <p className="text-2xl font-bold text-white">
-                2+
-              </p>
-              <p className="mt-1 text-xs text-slate-500">
-                Years Experience
-              </p>
+              <p className="text-2xl font-bold text-white">2+</p>
+              <p className="mt-1 text-xs text-slate-500">Years Experience</p>
             </div>
           </motion.div>
         </div>
@@ -315,9 +301,7 @@ const Hero = () => {
                 Smart Solutions
               </p>
 
-              <p className="text-[9px] text-slate-500">
-                Built for the future
-              </p>
+              <p className="text-[9px] text-slate-500">Built for the future</p>
             </div>
           </motion.div>
 

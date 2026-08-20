@@ -1,16 +1,19 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import {
   FaLinkedinIn,
   FaGithub,
   FaInstagram,
   FaTwitter,
+  FaWhatsapp
 } from "react-icons/fa";
 import {
   FiArrowUpRight,
   FiMail,
   FiMapPin,
 } from "react-icons/fi";
+
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -30,24 +33,34 @@ const Footer = () => {
     "SaaS Development",
   ];
 
-  const socials = [
-    {
-      icon: FaLinkedinIn,
-      href: "https://www.linkedin.com/in/sardar-abdullah-00a381388?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-    },
-    {
-      icon: FaGithub,
-      href: "https://github.com/Shahzaib-Malik77",
-    },
-    {
-      icon: FaInstagram,
-      href: "https://www.instagram.com/m.shahzaib2005?igsh=bnV1NHV5eWtjeTNx&igsi=bnV1NHV5eWtjeTNx",
-    },
-    {
-      icon: FaTwitter,
-      href: "https://x.com/abid_sarda57174",
-    },
-  ];
+
+
+const socials = [
+  {
+    icon: FaLinkedinIn,
+    href: "https://www.linkedin.com/in/sardar-abdullah-00a381388?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+  },
+  {
+    icon: FaGithub,
+    href: "https://github.com/Shahzaib-Malik77",
+  },
+  {
+    icon: FaInstagram,
+    href: "https://www.instagram.com/m.shahzaib2005?igsh=bnV1NHV5eWtjeTNx&igsi=bnV1NHV5eWtjeTNx",
+  },
+  {
+    icon: FaTwitter,
+    href: "https://x.com/abid_sarda57174",
+  },
+  {
+    icon: FaWhatsapp,
+    href: "https://wa.me/923235304217",
+  },
+  {
+    icon: FaWhatsapp,
+    href: "https://wa.me/923485006522",
+  },
+];
 
   return (
     <footer className="relative overflow-hidden bg-[#020611]">
@@ -71,7 +84,7 @@ const Footer = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.7 }}
             >
-              <a href="/" className="inline-flex items-center gap-3">
+              <Link to="/" className="inline-flex items-center gap-3">
                 <div className="relative flex h-11 w-11 items-center justify-center overflow-hidden rounded-xl border border-cyan-400/20 bg-gradient-to-br from-cyan-400/10 via-blue-500/10 to-violet-500/10">
                   <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/10 to-violet-500/10" />
 
@@ -89,7 +102,7 @@ const Footer = () => {
                     SOLUTIONS
                   </p>
                 </div>
-              </a>
+              </Link>
 
               <p className="mt-6 max-w-sm text-sm leading-6 text-slate-500">
                 We build modern digital experiences, powerful web
@@ -98,11 +111,11 @@ const Footer = () => {
               </p>
 
               <a
-                href="mailto:hello@zaptechsolutions.com"
+                href="mailto:zaphtech.solutions@gmail.com"
                 className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-slate-300 transition-colors hover:text-cyan-300"
               >
                 <FiMail size={16} />
-               zaphtech.solutions@gmail.com
+                zaphtech.solutions@gmail.com
               </a>
 
               <div className="mt-7 flex items-center gap-2">
@@ -113,6 +126,8 @@ const Footer = () => {
                     <motion.a
                       key={index}
                       href={social.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       whileHover={{
                         y: -4,
                         scale: 1.05,
@@ -139,8 +154,8 @@ const Footer = () => {
               <ul className="mt-6 space-y-4">
                 {navigation.map((item) => (
                   <li key={item.name}>
-                    <a
-                      href={item.href}
+                    <Link
+                      to={item.href}
                       className="group inline-flex items-center gap-1 text-sm text-slate-500 transition-colors hover:text-cyan-300"
                     >
                       {item.name}
@@ -149,7 +164,7 @@ const Footer = () => {
                         size={12}
                         className="opacity-0 transition-all duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:opacity-100"
                       />
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -191,8 +206,8 @@ const Footer = () => {
                 we can bring it to life.
               </p>
 
-              <a
-                href="/contact"
+              <Link
+                to="/contact"
                 className="group mt-6 inline-flex items-center gap-2 rounded-xl border border-cyan-400/20 bg-cyan-400/[0.06] px-5 py-3 text-sm font-semibold text-cyan-300 transition-all duration-300 hover:border-cyan-400/40 hover:bg-cyan-400/10"
               >
                 Start a Project
@@ -201,7 +216,7 @@ const Footer = () => {
                   size={16}
                   className="transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
                 />
-              </a>
+              </Link>
 
               <div className="mt-7 flex items-center gap-2 text-xs text-slate-600">
                 <FiMapPin size={14} className="text-cyan-400/70" />
@@ -217,19 +232,19 @@ const Footer = () => {
           </p>
 
           <div className="flex items-center gap-6 text-xs text-slate-600">
-            <a
-              href="#"
+            <Link
+              to="/privacy-policy"
               className="transition-colors hover:text-slate-300"
             >
               Privacy Policy
-            </a>
+            </Link>
 
-            <a
-              href="#"
+            <Link
+              to="/terms"
               className="transition-colors hover:text-slate-300"
             >
               Terms & Conditions
-            </a>
+            </Link>
           </div>
 
           <p className="text-xs text-slate-600">
@@ -245,4 +260,4 @@ const Footer = () => {
   );
 };
 
-export default Footer
+export default Footer;
