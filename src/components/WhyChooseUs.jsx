@@ -106,7 +106,7 @@ const WhyChooseUs = () => {
               className="mb-5 inline-flex items-center gap-2 rounded-full border border-cyan-400/20 bg-cyan-400/[0.06] px-4 py-2 text-xs font-medium text-cyan-300 backdrop-blur-xl"
             >
               <span className="h-1.5 w-1.5 rounded-full bg-cyan-400 shadow-[0_0_10px_rgba(34,211,238,0.9)]" />
-              Why Zaptech
+              Why Zaphtech
             </motion.div>
 
             <motion.h2

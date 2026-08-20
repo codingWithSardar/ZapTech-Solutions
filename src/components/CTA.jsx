@@ -160,18 +160,18 @@ const CTA = () => {
               />
             </motion.a>
 
-            <motion.a            
-              href="mailto:hello@zaphtech.solutions@gmail.com"
-              whileHover={{
-                scale: 1.03,
-              }}
-              whileTap={{ scale: 0.97 }}
-              className="flex min-w-[170px] items-center justify-center gap-2 rounded-xl border border-white/[0.1] bg-white/[0.03] px-6 py-3.5 text-sm font-semibold text-white backdrop-blur-xl transition-all hover:border-cyan-400/20 hover:bg-white/[0.06]"
-            >
-              <Mail size={17} />
+          <motion.a
+  href="mailto:zaphtech.solutions@gmail.com"
+  whileHover={{
+    scale: 1.03,
+  }}
+  whileTap={{ scale: 0.97 }}
+  className="flex min-w-[170px] items-center justify-center gap-2 rounded-xl border border-white/[0.1] bg-white/[0.03] px-6 py-3.5 text-sm font-semibold text-white backdrop-blur-xl transition-all hover:border-cyan-400/20 hover:bg-white/[0.06]"
+>
+  <Mail size={17} />
 
-              Get In Touch
-            </motion.a>
+  Get In Touch
+</motion.a>
           </motion.div>
 
           <div className="relative mx-auto mt-12 flex max-w-md flex-col items-center justify-center gap-4 border-t border-white/[0.07] pt-8 sm:flex-row">
