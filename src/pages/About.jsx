@@ -101,7 +101,7 @@ const About = () => {
             className="mb-6 inline-flex items-center gap-2 rounded-full border border-cyan-400/20 bg-cyan-400/[0.06] px-4 py-2 text-xs font-medium text-cyan-300 backdrop-blur-xl"
           >
             <Sparkles size={14} />
-            About Zaptech Solutions
+            About Zaphtech Solutions
           </motion.div>
 
           <motion.h1
@@ -128,7 +128,7 @@ const About = () => {
             }}
             className="mt-8 max-w-2xl text-base leading-7 text-slate-400 sm:text-lg"
           >
-            Zaptech Solutions is a technology-driven digital agency
+            Zaphtech Solutions is a technology-driven digital agency
             focused on transforming ambitious ideas into powerful,
             scalable and beautifully crafted digital products.
           </motion.p>
@@ -193,7 +193,7 @@ const About = () => {
               className="space-y-5 text-base leading-7 text-slate-400"
             >
               <p>
-                At Zaptech Solutions, we believe technology should
+                At Zaphtech Solutions, we believe technology should
                 do more than simply work. It should create meaningful
                 experiences, solve complex problems and open new
                 opportunities for businesses.
@@ -310,7 +310,7 @@ const About = () => {
               transition={{ duration: 0.6 }}
               className="text-xs font-semibold uppercase tracking-[0.25em] text-cyan-300"
             >
-              Why Zaptech
+              Why Zaphtech
             </motion.span>
 
             <motion.h2

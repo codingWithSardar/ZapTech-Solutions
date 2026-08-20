@@ -6,8 +6,10 @@ import {
   Sparkles,
   MessageCircle,
 } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const CTA = () => {
+  const navigate = useNavigate() ;
   return (
     <section
       id="cta"
@@ -142,7 +144,7 @@ const CTA = () => {
             className="relative mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row"
           >
             <motion.a
-              href="/contact"
+             onClick={()=> navigate('/contact')}
               whileHover={{
                 scale: 1.04,
                 boxShadow: "0 0 45px rgba(34,211,238,0.25)",
@@ -158,8 +160,8 @@ const CTA = () => {
               />
             </motion.a>
 
-            <motion.a
-              href="mailto:hello@zaptechsolutions.com"
+            <motion.a            
+              href="mailto:hello@zaphtech.solutions@gmail.com"
               whileHover={{
                 scale: 1.03,
               }}

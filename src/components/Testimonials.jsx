@@ -10,7 +10,7 @@ const testimonials = [
     company: "Nexora Solutions",
     image: "https://i.pravatar.cc/150?img=11",
     review:
-      "Zaptech understood our requirements from day one and turned our idea into a professional product. The communication was excellent and the final result felt far better than we expected.",
+      "Zaphtech understood our requirements from day one and turned our idea into a professional product. The communication was excellent and the final result felt far better than we expected.",
   },
   {
     name: "Ayesha Malik",
@@ -18,7 +18,7 @@ const testimonials = [
     company: "Lahore Digital",
     image: "https://i.pravatar.cc/150?img=44",
     review:
-      "We needed a modern platform that was fast, reliable and easy to manage. Zaptech delivered exactly that. Their attention to detail and willingness to improve things throughout the project really stood out.",
+      "We needed a modern platform that was fast, reliable and easy to manage. Zaphtech delivered exactly that. Their attention to detail and willingness to improve things throughout the project really stood out.",
   },
   {
     name: "Usman Ahmed",
@@ -26,7 +26,7 @@ const testimonials = [
     company: "Karachi Commerce",
     image: "https://i.pravatar.cc/150?img=12",
     review:
-      "Working with Zaptech was a smooth experience. They handled both the design and development professionally and were always responsive whenever we had questions or requested changes.",
+      "Working with Zaphtech was a smooth experience. They handled both the design and development professionally and were always responsive whenever we had questions or requested changes.",
   },
   {
     name: "Omar Al Mansoori",
@@ -42,7 +42,7 @@ const testimonials = [
     company: "Northstar Digital",
     image: "https://i.pravatar.cc/150?img=68",
     review:
-      "Zaptech brought our concept to life with a great balance of design and engineering. The product feels polished, performs well, and the team was genuinely easy to work with.",
+      "Zaphtech brought our concept to life with a great balance of design and engineering. The product feels polished, performs well, and the team was genuinely easy to work with.",
   },
 ];
 const Testimonials = () => {

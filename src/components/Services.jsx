@@ -8,6 +8,7 @@ import {
   Palette,
   ShoppingBag,
   Sparkles,
+  Smartphone
 } from "lucide-react";
 
 const services = [
@@ -22,6 +23,15 @@ const services = [
   },
   {
     number: "02",
+    title: "App Development",
+    description:
+      "Cross-platform mobile applications built with Flutter and Dart, delivering smooth performance, beautiful interfaces and consistent experiences across devices.",
+    icon: Smartphone,
+    gradient: "from-cyan-400 to-blue-500",
+    glow: "bg-cyan-400/10",
+  },
+  {
+    number: "03",
     title: "AI & Automation",
     description:
       "Intelligent AI-powered solutions that automate workflows, improve productivity and create smarter digital experiences.",
@@ -30,7 +40,7 @@ const services = [
     glow: "bg-blue-500/10",
   },
   {
-    number: "03",
+    number: "04",
     title: "UI/UX Design",
     description:
       "Beautiful, intuitive and conversion-focused interfaces designed to turn complex ideas into effortless digital experiences.",
@@ -39,7 +49,7 @@ const services = [
     glow: "bg-violet-500/10",
   },
   {
-    number: "04",
+    number: "05",
     title: "E-Commerce",
     description:
       "Modern and scalable e-commerce platforms designed to deliver seamless shopping experiences and drive business growth.",
@@ -48,7 +58,7 @@ const services = [
     glow: "bg-teal-400/10",
   },
   {
-    number: "05",
+    number: "06",
     title: "SaaS Development",
     description:
       "End-to-end SaaS products with secure architecture, powerful dashboards, subscriptions and scalable cloud infrastructure.",
@@ -57,7 +67,7 @@ const services = [
     glow: "bg-indigo-500/10",
   },
   {
-    number: "06",
+    number: "07",
     title: "Custom Software",
     description:
       "Tailored software solutions engineered around your unique business requirements, workflows and long-term goals.",
@@ -65,6 +75,7 @@ const services = [
     gradient: "from-indigo-400 to-violet-500",
     glow: "bg-violet-500/10",
   },
+  
 ];
 
 const containerVariants = {

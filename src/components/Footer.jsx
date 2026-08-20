@@ -82,7 +82,7 @@ const Footer = () => {
 
                 <div>
                   <h2 className="text-lg font-black tracking-tight text-white">
-                    ZAPTECH
+                    ZAPHTECH
                   </h2>
 
                   <p className="text-[9px] font-medium tracking-[0.25em] text-cyan-300">
@@ -213,7 +213,7 @@ const Footer = () => {
 
         <div className="relative flex flex-col gap-5 py-6 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-xs text-slate-600">
-            © {currentYear} Zaptech Solutions. All rights reserved.
+            © {currentYear} Zaphtech Solutions. All rights reserved.
           </p>
 
           <div className="flex items-center gap-6 text-xs text-slate-600">

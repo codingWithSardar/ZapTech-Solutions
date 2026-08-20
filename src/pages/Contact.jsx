@@ -271,7 +271,7 @@ const Contact = () => {
               viewport={{ once: true }}
               className="text-[10px] font-semibold uppercase tracking-[0.25em] text-cyan-400"
             >
-              Why Zaptech
+              Why Zaphtech
             </motion.p>
 
             <motion.h2
@@ -460,7 +460,7 @@ const Contact = () => {
       <section className="relative z-10 border-t border-white/[0.06] px-6 py-10 lg:px-8">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-5 sm:flex-row">
           <p className="text-xs text-slate-600">
-            © 2026 Zaptech Solutions. All rights reserved.
+            © 2026 Zaphtech Solutions. All rights reserved.
           </p>
 
           <div className="flex items-center gap-2">

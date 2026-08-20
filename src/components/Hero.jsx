@@ -106,7 +106,7 @@ const Hero = () => {
             }}
             className="mt-6 max-w-2xl text-sm leading-6 text-slate-400 sm:mt-7 sm:text-lg sm:leading-7"
           >
-            Zaptech Solutions transforms ambitious ideas into
+            Zaphtech  Solutions transforms ambitious ideas into
             powerful digital products through modern web
             development, AI, scalable technology and exceptional
             design.

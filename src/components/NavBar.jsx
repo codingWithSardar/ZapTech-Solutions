@@ -69,7 +69,7 @@ const Navbar = () => {
 
               <div className="hidden sm:block">
                 <h1 className="text-[15px] font-bold tracking-tight text-white">
-                  ZAPTECH
+                  ZAPHTECH
                   <span className="text-cyan-400">.</span>
                 </h1>
 
